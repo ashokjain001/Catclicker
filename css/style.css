@@ -7,11 +7,12 @@
 }
 
 .number {
-	padding-left: 30px;
+	padding-left: 10px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     padding-right: 30px;
-	font-size: 500%;
+	font-size: 300%;
+	display: block;
 }
 
 
@@ -20,4 +21,19 @@ h1 {
     padding-left: 30px;
     margin: 0px;
     font-weight: 200;
+}
+
+.counter {
+	padding-left: 30px;
+    padding-top: 30px;
+	padding-right: 10px;
+	font-size: 300%;
+	float: left;
+	display: inline;	
+}
+
+.reset{
+	padding-left: 30px;
+	float: left;
+
 }
